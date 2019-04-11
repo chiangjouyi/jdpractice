@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="description" content="My Practice">
+
+    <title>JDpractice</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="/jquery.countdown-2.2.0/jquery.countdown.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script src="/jquery.countdown-2.2.0/jquery.countdown.js"></script>
+
+</head>
+
+
+<body>
+<div class="container" style="background-color: #f0f3ef; ">
+
+    <!--第一層-->
+    <div id="shortcut">
+        <div class="shortcut_bg">
+            <!--左側-->
+            <ul class="shortcut_left">
+                <li id="mycity" class="shortcut_btn dropdown" >
+                    <!--圖示層-->
+                    <div class="icon_layer " >
+                        <i class="icon_red"><img src="img/icon/map-marker.png"></i>
+                        <span >北京</span>
+                    </div>
+                    <!--下拉選單層-->
+                    <div class="dd dropdown_layer" style="display: none">
+                        <div class="dropdown_list_city">
+                            <div class="location"><a class="selected" data-id="1" href="javascript:void(0)" >北京</a></div>
+                            <div class="location"><a class="" data-id="2" href="javascript:void(0)" >上海</a></div>
+                            <div class="location"><a class="" data-id="3" href="javascript:void(0)" >天津</a></div>
+                            <div class="location"><a class="" data-id="4" href="javascript:void(0)" >重庆</a></div>
+                            <div class="location"><a class="" data-id="5" href="javascript:void(0)" >河北</a></div>
+                            <div class="location"><a class="" data-id="6" href="javascript:void(0)" >山西</a></div>
+                            <div class="location"><a class="" data-id="7" href="javascript:void(0)" >河南</a></div>
+                            <div class="location"><a class="" data-id="8" href="javascript:void(0)" >辽宁</a></div>
+                            <div class="location"><a class="" data-id="9" href="javascript:void(0)" >吉林</a></div>
+                            <div class="location"><a class="" data-id="10" href="javascript:void(0)" >黑龙江</a></div>
+                            <div class="location"><a class="" data-id="11" href="javascript:void(0)" >内蒙古</a></div>
+                            <div class="location"><a class="" data-id="12" href="javascript:void(0)" >江苏</a></div>
+                            <div class="location"><a class="" data-id="13" href="javascript:void(0)" >山东</a></div>
+                            <div class="location"><a class="" data-id="14" href="javascript:void(0)" >安徽</a></div>
+                            <div class="location"><a class="" data-id="15" href="javascript:void(0)" >浙江</a></div>
+                            <div class="location"><a class="" data-id="16" href="javascript:void(0)" >福建</a></div>
+                            <div class="location"><a class="" data-id="17" href="javascript:void(0)" >湖北</a></div>
+                            <div class="location"><a class="" data-id="18" href="javascript:void(0)" >湖南</a></div>
+                            <div class="location"><a class="" data-id="19" href="javascript:void(0)" >广东</a></div>
+                            <div class="location"><a class="" data-id="20" href="javascript:void(0)" >广西</a></div>
+                            <div class="location"><a class="" data-id="21" href="javascript:void(0)" >江西</a></div>
+                            <div class="location"><a class="" data-id="22" href="javascript:void(0)" >四川</a></div>
+                            <div class="location"><a class="" data-id="23" href="javascript:void(0)" >海南</a></div>
+                            <div class="location"><a class="" data-id="24" href="javascript:void(0)" >贵州</a></div>
+                            <div class="location"><a class="" data-id="25" href="javascript:void(0)" >云南</a></div>
+                            <div class="location"><a class="" data-id="26" href="javascript:void(0)" >西藏</a></div>
+                            <div class="location"><a class="" data-id="27" href="javascript:void(0)" >陕西</a></div>
+                            <div class="location"><a class="" data-id="28" href="javascript:void(0)" >甘肃</a></div>
+                            <div class="location"><a class="" data-id="29" href="javascript:void(0)" >青海</a></div>
+                            <div class="location"><a class="" data-id="30" href="javascript:void(0)" >宁夏</a></div>
+                            <div class="location"><a class="" data-id="31" href="javascript:void(0)" >新疆</a></div>
+                            <div class="location"><a class="" data-id="32" href="javascript:void(0)" >港澳</a></div>
+                            <div class="location"><a class="" data-id="33" href="javascript:void(0)" >台湾</a></div>
+                            <div class="location"><a class="" data-id="34" href="javascript:void(0)" >钓鱼岛</a></div>
+                            <div class="location"><a class="" data-id="35" href="javascript:void(0)" >海外</a></div>
+                        </div>
+
+                        <div class="dropdown_list_country">
+                            <div class="dropdown_layer_split"></div>
+                            <p>Available Sites</p>
+                            <ul class="intl_list">
+                                <li class="intl_country">
+                                    <a href="javascript:void(0)" target="_blank">
+                                        <img src="img/icon/worldwide.png">
+                                        Global Site
+                                    </a>
+                                </li>
+                                <li class="intl_country">
+                                    <a href="javascript:void(0)" target="_blank">
+                                        <img src="img/icon/russia.png">
+                                        Сайт России
+                                    </a>
+                                </li>
+                                <li class="intl_country">
+                                    <a href="javascript:void(0)" target="_blank">
+                                        <img src="img/icon/indonesia.png">
+                                        Situs Indonesia
+                                    </a>
+                                </li>
+                                <li class="intl_country">
+                                    <a href="javascript:void(0)" target="_blank">
+                                        <img src="img/icon/spain.png">
+                                        Sitio de España
+                                    </a>
+                                </li>
+                                <li class="intl_country">
+                                    <a href="javascript:void(0)" target="_blank">
+                                        <img src="img/icon/thailand.png">
+                                        เว็บไซต์ประเทศไทย
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <!--右側-->
+            <ul class="shortcut_right">
+                <li class="shortcut_btn">
+                    <a class="fixed_btn" href="javascript:void(0)">你好，请登录 </a>&nbsp;
+                    <a class="link_register" href="javascript:void(0)" style="color: #f10215">免费注册</a>
+                </li>
+                <li class="spacer"></li>
+                <li class="shortcut_btn">
+                    <a class="fixed_btn" href="javascript:void(0)" target="_blank">我的订单</a>
+                </li>
+                <li class="spacer"></li>
+                <li class="shortcut_btn fr_dropdown_btn">
+                    <div class="fr_icon_layer">
+                        <a class="" href="javascript:void(0)">我的京东</a>
+                        <i class="down_arrow"><img src="img/icon/down-arrow.png" width="12" height="12"></i>
+                    </div>
+                    <div class="fr_dropdown_layer" style="display: none">
+                        <div class="myjdlist">
+                            <div class="fore1">
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">待处理订单</a>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">返修退换货</a>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">降价商品</a>
+                                </div>
+                            </div>
+                            <div class="fore2">
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">消息</a>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">我的问答</a>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">我的关注</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <p class="" style="border-bottom: dotted 1px #eee; height: 100px"></p>
+                        <div class="myjdlist">
+                            <div class="fore1">
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">我的京豆</a>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">我的白条</a>
+                                </div>
+                            </div>
+                            <div class="fore2">
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">我的优惠券</a>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">我的理财</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="spacer"></li>
+                <li class="shortcut_btn">
+                    <a class="fixed_btn" href="javascript:void(0)" target="_blank">京东会员</a>
+                </li>
+                <li class="spacer"></li>
+                <li class="shortcut_btn fr_dropdown_btn">
+                    <div class="fr_icon_layer">
+                        <a class="" href="javascript:void(0)">企业采购</a>
+                        <i class="down_arrow"><img src="img/icon/down-arrow.png" width="12" height="12"></i>
+                    </div>
+                    <div class="fr_dropdown_layer" style="display: none">
+                        <div class="mycolist">
+                            <div class="fore1">
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">企业购</a>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">工业品</a>
+                                </div>
+                            </div>
+                            <div class="fore2">
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">商用场景馆</a>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">礼品卡</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="spacer"></li>
+                <li class="shortcut_btn fr_dropdown_btn">
+                    <div class="fr_icon_layer">
+                        <a class="" href="javascript:void(0)">客户服务</a>
+                        <i class="down_arrow"><img src="img/icon/down-arrow.png" width="12" height="12"></i>
+                    </div>
+                    <div class="fr_dropdown_layer" style="display: none; right: 0">
+                        <div class="myservicelist">
+                            <div><strong style="color: #666">客户</strong></div>
+                            <div class="fore1">
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">帮助中心</a>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">在线客服</a>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">电话客服</a>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">金融咨询</a>
+                                </div>
+                            </div>
+                            <div class="fore2">
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">售后服务</a>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">意见建议</a>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">客服邮箱</a>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">全球售客服</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <p class="" style="border-bottom: dotted 1px #eee; height: 120px"></p>
+                        <div class="myservicelist">
+                            <div><strong style="color: #666">商户</strong></div>
+                            <div class="fore1">
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">我的京豆</a>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">我的白条</a>
+                                </div>
+                            </div>
+                            <div class="fore2">
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">我的优惠券</a>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:void(0)" target="_blank">我的理财</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="spacer"></li>
+                <li class="shortcut_btn fr_dropdown_btn">
+                    <div class="fr_icon_layer">
+                        <a class="" href="javascript:void(0)">网站导航</a>
+                        <i class="down_arrow"><img src="img/icon/down-arrow.png" width="12" height="12"></i>
+                    </div>
+                    <div class="fr_dropdown_layer" style="right: -60px; display: none">
+                        <div class="mynavlist">
+                            <dl class="fore1">
+                                <dt><strong style="color: #666">特色主题</strong></dt>
+                                <dd>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">京东试用</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">京东金融</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">国际站</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">京东会员</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">京东预售</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">买什么</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">俄语站</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">装机大师</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">0元评测</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">港澳售</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">优惠券</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">秒杀</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">闪购</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">印尼站</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">京东金融科技</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">陪伴计划</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">出海招商</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">拍拍二手</a>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl class="fore2">
+                                <dt><strong style="color: #666">行业频道</strong></dt>
+                                <dd>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">手机</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">智能数码</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">玩3C</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">电脑办公</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">家用电器</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">京鱼座智能</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">服装城</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">京东生鲜</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">家装城</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">母婴</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">食品</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">农资频道</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">整车</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">图书</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">劳动防护</a>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl class="fore3">
+                                <dt><strong style="color: #666">生活服务</strong></dt>
+                                <dd>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">京东众筹</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">白条</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">京东金融App</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">京东小金库</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">理财</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">话费</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">水电煤</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">彩票</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">旅行</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">机票酒店</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">电影票</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">京东到家</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">游戏</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">拍拍回收</a>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl class="fore4">
+                                <dt><strong style="color: #666">更多精选</strong></dt>
+                                <dd>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">合作招商</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">京东通信</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">京东E卡</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">企业采购</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">服务市场</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">办公生活馆</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">乡村招募</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">校园加盟</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">京友邦</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">京东社区</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">游戏社区</a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:void(0)" target="_blank">知识产权维权</a>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="spacer"></li>
+                <li class="shortcut_btn">
+                    <a class="" href="javascript:void(0)">手机京东</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+
+    <!--第二層-->
+    <div id="header">
+        <div id="header_bg">
+            <div id="logo">
+                <h1>
+                    <a class="logo_title" href="javascript:void(0)" target="_blank"></a>
+                </h1>
+            </div>
+            <div id="search">
+                <div class="search-m">
+                    <div class="search_form">
+                        <input id="keyword" class="text" type="text" autocomplete="off" placeholder="笔记本硬盘">
+                        <span class="photo-search-btn">
+                            <span class="upload_bg"> </span>
+                        </span>
+                        <button class="button"><i></i></button>
+                    </div>
+                </div>
+            </div>
+            <div id="cart">
+                <div class="cart_btn">
+                    <i class="cart_icon"></i>
+                    <a href="javascript:void(0)" target="_blank">我的购物车</a>
+                </div>
+                <div class="cart_dropdown_layer" style="display: none">
+                    <div class="cart_pop">
+                        <div class="cart_empty" style="font-size: 12px">
+                            <i class="cart_empty_icon"></i>
+                            购物车中还没有商品，赶紧选购吧！
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="hotwords">
+                <a href="javascript:void(0)" target="_blank" style="color: #f10215">睡眠节直降</a>
+                <a href="javascript:void(0)" target="_blank">健康睡眠</a>
+                <a href="javascript:void(0)" target="_blank">100减50</a>
+                <a href="javascript:void(0)" target="_blank">睡眠节</a>
+                <a href="javascript:void(0)" target="_blank">12期免息</a>
+                <a href="javascript:void(0)" target="_blank">静音空调</a>
+                <a href="javascript:void(0)" target="_blank">春耕节</a>
+                <a href="javascript:void(0)" target="_blank">鸡蛋</a>
+                <a href="javascript:void(0)" target="_blank">iPhone特惠</a>
+            </div>
+            <div id="navitems">
+                <ul class="navitems-gp1">
+                    <li class="nav_fore1"><a href="javascript:void(0)" target="_blank">秒杀</a></li>
+                    <li class="nav_fore2"><a href="javascript:void(0)" target="_blank">优惠券</a></li>
+                    <li class="nav_fore3"><a href="javascript:void(0)" target="_blank">PLUS会员</a></li>
+                    <li class="nav_fore4"><a href="javascript:void(0)" target="_blank">闪购</a></li>
+                </ul>
+                <div class="nav_spacer"></div>
+                <ul class="navitems-gp2" style="padding-left: 5px">
+                    <li class="nav_fore1"><a href="javascript:void(0)" target="_blank">拍卖</a></li>
+                    <li class="nav_fore2"><a href="javascript:void(0)" target="_blank">京东时尚</a></li>
+                    <li class="nav_fore3"><a href="javascript:void(0)" target="_blank">京东超市</a></li>
+                    <li class="nav_fore4"><a href="javascript:void(0)" target="_blank">京东生鲜</a></li>
+                </ul>
+                <div class="nav_spacer"> </div>
+                <ul class="navitems-gp3" style="padding-left: 5px">
+                    <li class="nav_fore1"><a href="javascript:void(0)" target="_blank">海囤全球</a></li>
+                    <li class="nav_fore2"><a href="javascript:void(0)" target="_blank">京东金融</a></li>
+                </ul>
+
+            </div>
+            <div id="treasure">
+                <a class="promo_link" href="javascript:void(0)" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!--第三層-->
+    <div class="fs">
+        <div class="grid_c1 fs_inner">
+            <div class="fs_col1">
+                <!--<div style="border: 1px solid #ededed; height: 2px; background-color: #fff; top: -10px"></div>-->
+                <div id="side_cat" class="cat">
+                    <ul class="side_cat_menu">
+                        <li class="cat_menu_item" data-index="1">
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">家用电器</a>
+                        </li>
+                        <li class="cat_menu_item" data-index="2">
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">手机</a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">运营商</a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">数码</a>
+                        </li>
+                        <li class="cat_menu_item" data-index="3">
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">电脑</a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">办公</a>
+                        </li>
+                        <li class="cat_menu_item" data-index="4">
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">家居</a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">家具</a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">家装</a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">厨具</a>
+
+
+                        </li>
+                        <li class="cat_menu_item" data-index="5">
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">男装</a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">女装</a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">童装</a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">内衣</a>
+                        </li>
+                        <li class="cat_menu_item" data-index="6">
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">  美妆</a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">个护清洁 </a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">宠物 </a>
+
+                        </li>
+                        <li class="cat_menu_item" data-index="7">
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">  女鞋 </a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">箱包 </a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">钟表 </a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">珠宝 </a>
+
+                        </li>
+                        <li class="cat_menu_item" data-index="8">
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">  男鞋</a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">运动 </a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">户外 </a>
+
+                        </li>
+                        <li class="cat_menu_item" data-index="9">
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">  房产</a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">汽车 </a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">汽车用品 </a>
+
+                        </li>
+                        <li class="cat_menu_item" data-index="10">
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">  母婴 </a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">玩具乐器 </a>
+                        </li>
+                        <li class="cat_menu_item" data-index="11">
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">  食品</a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">酒类 </a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">生鲜 </a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">特产 </a>
+                        </li>
+                        <li class="cat_menu_item" data-index="12">
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">  艺术</a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">礼品鲜花 </a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">农资绿植 </a>
+
+                        </li>
+                        <li class="cat_menu_item" data-index="13">
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">  医药保健 </a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">计生情趣 </a>
+                        </li>
+                        <li class="cat_menu_item" data-index="14">
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">  图书 </a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">文娱 </a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">电子书 </a>
+
+                        </li>
+                        <li class="cat_menu_item" data-index="15">
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">  机票</a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">酒店 </a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">旅游 </a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">生活 </a>
+
+                        </li>
+                        <li class="cat_menu_item" data-index="16">
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">  理财</a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">众筹 </a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">白条 </a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">保险 </a>
+
+                        </li>
+                        <li class="cat_menu_item" data-index="17">
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">  安装</a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">维修 </a>
+                            <span class="cat_menu_split">/</span>
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank">清洗保养 </a>
+
+                        </li>
+                        <li class="cat_menu_item" data-index="18">
+                            <a class="cat_menu_item_link" href="javascript:void(0)" target="_blank"> 工业品</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="fs_col2">
+                <div class="focus">
+                    <div class="focus_main">
+                        <div class="focus_slider">
+
+                            <button class="slider_control slider_control_prev" id="slider_control_prev">
+                                <i class="iconfont"><img src="img/icon/left-arrow.png"></i>
+                            </button>
+
+                            <div class="slider_list">
+                                <div class="slider_wrapper">
+                                    <div id="a" class="slider_item">
+                                        <a class="slider_item_link" href="javascript:void(0)" target="_blank">
+                                            <img src="img/slider/s1.jpg">
+                                        </a>
+                                    </div>
+                                    <div id="b" class="slider_item slider_item_hide">
+                                        <a class="slider_item_link" href="javascript:void(0)" target="_blank">
+                                            <img src="img/slider/s2.jpg">
+                                        </a>
+                                    </div>
+                                    <div id="c" class="slider_item slider_item_hide">
+                                        <a class="slider_item_link" href="javascript:void(0)" target="_blank">
+                                            <img src="img/slider/s3.jpg">
+                                        </a>
+                                    </div>
+                                    <div id="d" class="slider_item slider_item_hide">
+                                        <a class="slider_item_link" href="javascript:void(0)" target="_blank">
+                                            <img src="img/slider/s4.jpg">
+                                        </a>
+                                    </div>
+                                    <div id="e" class="slider_item slider_item_hide ">
+                                        <a class="slider_item_link" href="javascript:void(0)" target="_blank">
+                                            <img src="img/slider/s5.jpg">
+                                        </a>
+                                    </div>
+                                    <div id="f" class="slider_item slider_item_hide">
+                                        <a class="slider_item_link" href="javascript:void(0)" target="_blank">
+                                            <img src="img/slider/s6.jpg">
+                                        </a>
+                                    </div>
+                                    <div id="g" class="slider_item slider_item_hide">
+                                        <a class="slider_item_link" href="javascript:void(0)" target="_blank">
+                                            <img src="img/slider/s7.jpg">
+                                        </a>
+                                    </div>
+                                    <div id="h" class="slider_item slider_item_hide">
+                                        <a class="slider_item_link" href="javascript:void(0)" target="_blank">
+                                            <img src="img/slider/s8.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="slider_control slider_control_next" id="slider_control_next">
+                                <i class="iconfont"><img src="img/icon/right-arrow.png"></i>
+                            </button>
+
+                            <ul class="slider_indicator">
+                                <li class="slider_indicator_btn slider_item_activate">1</li>
+                                <li class="slider_indicator_btn">2</li>
+                                <li class="slider_indicator_btn">3</li>
+                                <li class="slider_indicator_btn">4</li>
+                                <li class="slider_indicator_btn">5</li>
+                                <li class="slider_indicator_btn">6</li>
+                                <li class="slider_indicator_btn">7</li>
+                                <li class="slider_indicator_btn">8</li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fs_col3">
+                <div id="J_rec" class="J_rec rec">
+                    <div class="rec_inner">
+                        <div class="rec_item">
+                            <a class="rec_link" href="javascript:void(0)" target="_blank">
+                                <img src="img/rec_img/rec1.jpeg">
+                            </a>
+                        </div>
+                        <div class="rec_item">
+                            <a class="rec_link" href="javascript:void(0)" target="_blank">
+                                <img src="img/rec_img/rec2.jpeg">
+                            </a>
+                        </div>
+                        <div class="rec_item">
+                            <a class="rec_link" href="javascript:void(0)" target="_blank">
+                                <img src="img/rec_img/rec3.jpeg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fs_col4">
+                <div id="J_user" class="J_user">
+                    <div class="user_inner">
+                        <div class="user_pic">
+                            <a class="user_pic_link" href="javascript:void(0)" target="_blank"><img src="img/member/no_login.jpg"></a>
+                        </div>
+                        <div class="user_show">
+                            <p class="user_tip">Hi~欢迎来到京东！</p>
+                            <p>
+                                <a class="user_login" href="javascript:void(0)" >登录</a>
+                                <a class="user_reg" href="javascript:void(0)" >注册</a>
+                            </p>
+                        </div>
+                        <div class="user_profit">
+                            <a class="user_profit_link" href="javascript:void(0)" target="_blank">新人福利</a>
+                            <a class="user_profit_link user_profit_link_plus" href="javascript:void(0)" target="_blank">PLUS会员</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="J_news" class="J_news">
+                    <div class="news">
+                        <div class="news_hd">
+                            <h5 class="news_tit"> 京东快报</h5>
+                            <a class="news_more"  href="javascript:void(0)" target="_blank">更多 ></a>
+                        </div>
+                        <ul class="news_list">
+                            <li class="news_item">
+                                <a class="news_link" href="javascript:void(0)" target="_blank">
+                                    <span class="news_tag news_item_01">公告</span>
+                                    瑞士钟表品牌宝齐莱独家入驻京东
+                                </a>
+                            </li>
+                            <li class="news_item">
+                                <a class="news_link" href="javascript:void(0)" target="_blank">
+                                    <span class="news_tag news_item_02">活动</span>
+                                    优选好货
+                                </a>
+                            </li>
+                            <li class="news_item">
+                                <a class="news_link" href="javascript:void(0)" target="_blank">
+                                    <span class="news_tag news_item_03">热门</span>
+                                    C1驾照即将升级，大批车主或将受益，没考驾照的墙角哭晕
+                                </a>
+                            </li>
+                            <li class="news_item">
+                                <a class="news_link" href="javascript:void(0)" target="_blank">
+                                    <span class="news_tag news_item_04">推荐</span>
+                                    首批转网用户已哭晕！移动5G流量资费公布，1G仅需1毛
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="J_service" class="J_service">
+                    <div class="service_entry">
+                        <ul class="service_list">
+                            <li class="service_item">
+                                <a class="service_link" href="javascript:void(0)" target="_blank">
+                                    <i class="service_icon"><img src="img/icon/service_01.png"></i>
+                                    <span class="service_txt">话费</span>
+                                </a>
+                            </li>
+                            <li class="service_item">
+                                <a class="service_link" href="javascript:void(0)" target="_blank">
+                                    <i class="service_icon"><img src="img/icon/service_02.png"></i>
+                                    <span class="service_txt">机票</span>
+                                </a>
+                            </li>
+                            <li class="service_item">
+                                <a class="service_link" href="javascript:void(0)" target="_blank">
+                                    <i class="service_icon"><img src="img/icon/service_03.png"></i>
+                                    <span class="service_txt">酒店</span>
+                                </a>
+                            </li>
+                            <li class="service_item">
+                                <a class="service_link" href="javascript:void(0)" target="_blank">
+                                    <i class="service_icon"><img src="img/icon/service_04.png"></i>
+                                    <span class="service_txt">游戏</span>
+                                </a>
+                            </li>
+                            <li class="service_item">
+                                <a class="service_link" href="javascript:void(0)" target="_blank">
+                                    <i class="service_icon"><img src="img/icon/service_05.png"></i>
+                                    <span class="service_txt">企业购</span>
+                                </a>
+                            </li>
+                            <li class="service_item">
+                                <a class="service_link" href="javascript:void(0)" target="_blank">
+                                    <i class="service_icon"><img src="img/icon/service_06.png"></i>
+                                    <span class="service_txt">加油卡</span>
+                                </a>
+                            </li>
+                            <li class="service_item">
+                                <a class="service_link" href="javascript:void(0)" target="_blank">
+                                    <i class="service_icon"><img src="img/icon/service_07.png"></i>
+                                    <span class="service_txt">电影票</span>
+                                </a>
+                            </li>
+                            <li class="service_item">
+                                <a class="service_link" href="javascript:void(0)" target="_blank">
+                                    <i class="service_icon"><img src="img/icon/service_08.png"></i>
+                                    <span class="service_txt">火车票</span>
+                                </a>
+                            </li>
+                            <li class="service_item">
+                                <a class="service_link" href="javascript:void(0)" target="_blank">
+                                    <i class="service_icon"><img src="img/icon/service_09.png"></i>
+                                    <span class="service_txt">众酬</span>
+                                </a>
+                            </li>
+                            <li class="service_item">
+                                <a class="service_link" href="javascript:void(0)" target="_blank">
+                                    <i class="service_icon"><img src="img/icon/service_10.png"></i>
+                                    <span class="service_txt">理财</span>
+                                </a>
+                            </li>
+                            <li class="service_item">
+                                <a class="service_link" href="javascript:void(0)" target="_blank">
+                                    <i class="service_icon"><img src="img/icon/service_11.png"></i>
+                                    <span class="service_txt">礼品卡</span>
+                                </a>
+                            </li>
+                            <li class="service_item">
+                                <a class="service_link" href="javascript:void(0)" target="_blank">
+                                    <i class="service_icon"><img src="img/icon/service_12.png"></i>
+                                    <span class="service_txt">白条</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--第四層-->
+    <div class="floors">
+        <!--第四層之一：倒數計時-->
+        <div id="J_seckill" class="sk">
+            <div class="sk_inner">
+                <div class="sk_hd">
+                    <a class="sk_hd_link" href="javascript:void(0)" target="_blank">
+                        <div class="sk_tit">京东秒杀</div>
+                        <div class="sk_subtit">FLASH DEALS</div>
+                        <i class="sk_ico"><img src="img/icon/flash.png"></i>
+                        <div class="sk_desc">本场距离结束还剩</div>
+                        <div class="sk_cd">
+                            <div class="cd">
+                                <div class="cd_item cd_hour">
+                                    <span class="cd_item_txt">01</span>
+                                </div>
+                                <div class="cd_item cd_minute">
+                                    <span class="cd_item_txt">29</span>
+                                </div>
+                                <div class="cd_item cd_second">
+                                    <span class="cd_item_txt">08</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="sk_bd">
+                    <div class="sk_list">
+                        <div class="sk_list_inner">
+                            <button class="slider_control slider_control_prev">
+                                <i class="iconfont"><img src="img/icon/left-arrow.png"></i>
+                            </button>
+                            <div class="slider_list" style="overflow: hidden">
+                                <div class="slider_wrapper" >
+
+                                    <div class="slider_item sk_item sk_item_1" data-index="0" style="float: left; width: 200px;">
+                                        <a class="sk_item_lk" href="javascript:void(0)" target="_blank" >
+                                            <div class="lazyimg lazyimg_loaded sk_item_img">
+                                                <img src="img/sk/sk_item_1.webp" class="lazyimg_img">
+                                            </div>
+                                            <p class="sk_item_name">【京东秒杀】巴利BALLY男包斜挎包经典红白条纹 男士单肩包 TERINO 黑色 S</p>
+                                            <div class="sk_item_price">
+                                                <span class="mod_price sk_item_price_new">
+                                                    <i>¥</i>
+                                                    <span>1649.00</span>
+                                                </span>
+                                                <span class="mod_price sk_item_price_origin">
+                                                    <i>¥</i>
+                                                    <span>2699.00</span>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+
+
+                                    <div class="slider_item sk_item sk_item_2" style="float: left; width: 200px;">
+                                        <a class="sk_item_lk" href="javascript:void(0)" target="_blank" >
+                                            <div class="lazyimg lazyimg_loaded sk_item_img">
+                                                <img src="img/sk/sk_item_2.webp" class="lazyimg_img">
+                                            </div>
+                                            <p class="sk_item_name">海信（Hisense）HZ55E5A 55英寸 超高清4K HDR Unibody一体超薄  AI人工智能液晶电视机</p>
+                                            <div class="sk_item_price">
+                                                <span class="mod_price sk_item_price_new">
+                                                    <i>¥</i>
+                                                    <span>3469.00</span>
+                                                </span>
+                                                <span class="mod_price sk_item_price_origin">
+                                                    <i>¥</i>
+                                                    <span>4298.00</span>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="slider_item sk_item sk_item_3" data-index="0" style="float: left; width: 200px;">
+                                        <a class="sk_item_lk" href="javascript:void(0)" target="_blank" >
+                                            <div class="lazyimg lazyimg_loaded sk_item_img">
+                                                <img src="img/sk/sk_item_3.webp" class="lazyimg_img">
+                                            </div>
+                                            <p class="sk_item_name">【【京东JOY联名款】自然堂雪域精粹水乳保湿套装(水160ml+乳液90ml+面膜3片+洗面奶20g+喷雾50ml)护肤品礼盒</p>
+                                            <div class="sk_item_price">
+                                                <span class="mod_price sk_item_price_new">
+                                                    <i>¥</i>
+                                                    <span>209.00</span>
+                                                </span>
+                                                <span class="mod_price sk_item_price_origin">
+                                                    <i>¥</i>
+                                                    <span>441.00</span>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="slider_item sk_item sk_item_4" data-index="0" style="float: left; width: 200px;">
+                                        <a class="sk_item_lk" href="javascript:void(0)" target="_blank" >
+                                            <div class="lazyimg lazyimg_loaded sk_item_img">
+                                                <img src="img/sk/sk_item_4.webp" class="lazyimg_img">
+                                            </div>
+                                            <p class="sk_item_name">清华同方(THTF)精锐520 一体机台式电脑23.8英寸(i5-8400 8G 128GSSD+1T WiFi office 无线键鼠 三年上门)</p>
+                                            <div class="sk_item_price">
+                                                <span class="mod_price sk_item_price_new">
+                                                    <i>¥</i>
+                                                    <span>3998.00</span>
+                                                </span>
+                                                <span class="mod_price sk_item_price_origin">
+                                                    <i>¥</i>
+                                                    <span>4499.00</span>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <button class="slider_control slider_control_next" >
+                                <i class="iconfont"><img src="img/icon/right-arrow.png"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="sk_chn">
+                        <div class="slider sk_chn_inner">
+                            <div class="slider_list" style="overflow: hidden">
+                                <div class="slider_wrapper">
+                                    <a class="sk_item_lk" href="javascript:void(0)" target="_blank">
+                                        <img src="img/sk/sk_chn_1.jpeg">
+                                    </a>
+                                    <a class="sk_item_lk" href="javascript:void(0)" target="_blank">
+                                        <img src="img/sk/sk_chn_2.jpeg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="slider_indicators" style="margin-left: -14px;">
+                                <i class="slider_indicators_btn slider_indicators_btn_last slider_indicators_btn_active"></i>
+                                <i class="slider_indicators_btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--第四層之二-->
+        <div id="J_corechn2" class="corechn2">
+
+        </div>
+    </div>
+</div>
+
+<style>
+
+
+</style>
+<script>
+
+</script>
+</body>
+</html>
